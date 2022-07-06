@@ -1,11 +1,11 @@
 package test
 
 import (
+	_ "beego_server/routers"
 	"net/http"
 	"net/http/httptest"
 	"path/filepath"
 	"runtime"
-	_ "test_server/routers"
 	"testing"
 
 	"github.com/astaxie/beego"
