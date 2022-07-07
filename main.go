@@ -32,7 +32,7 @@ func main() {
 
 	logs.SetLogger(logs.AdapterMultiFile, // 日志分类别，多文件写入，各个级别不同的日志生成单独的文件
 		`{"filename":"logs/beego_server.log","separate":
-		 [ "error", "warning","info","debug"]}`)
+		 [ "error", "warning","notice","info","debug"]}`)
 
 	beego.Run() // 所有的配置都要写在beego.Run()执行之前
 }

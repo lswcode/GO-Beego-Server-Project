@@ -5,11 +5,13 @@ import (
 )
 
 type UserLogin struct {
+	Id       int
 	Account  string `json:"account"` // 首字母必须大写，不然无法被JSON包解析
 	Password string `json:"password"`
 }
 
 type UserRegister struct {
+	Id       int
 	Name     string
 	Account  string `json:"account"` // 首字母必须大写，不然无法被JSON包解析
 	Password string `json:"password"`

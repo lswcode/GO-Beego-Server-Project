@@ -39,7 +39,8 @@ func (UA *UserAuthController) Login() {
 	logs.Debug("保存后的结构体", user.Account, user.Password)
 
 	afterMD5 := utils.Md5(user.Password)
-	logs.Debug("加密后的密码", afterMD5)
+	logs.Notice("原密码", user.Password)
+	logs.Notice("加密后的密码", afterMD5)
 
 	res := map[string]interface{}{ // 返回键值对格式给前端，map或结构体都可以，推荐使用map，因为结构体的字段名一般都是大写，需要使用tag标签进行转换
 		"code": 200, "msg": "登陆成功",
