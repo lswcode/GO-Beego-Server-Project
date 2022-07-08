@@ -450,3 +450,62 @@
 2022/07/07 18:07:53.237 [N] [value.go:543]  加密后的密码 a2cee1f64eff93df83e32b12f8022391
 
 2022/07/07 18:07:53.237 [D] [server.go:2879]  |      127.0.0.1|[42m 200 [0m|     2.5867ms|   match|[46m POST    [0m /login   r:/login
+2022/07/08 14:17:31.602 [I] [asm_amd64.s:1581]  http server Running on http://:7777
+2022/07/08 14:17:33.794 [D] [value.go:543]  解析body获得data [123 34 97 99 99 111 117 110 116 34 58 34 108 115 119 49 50 51 34 44 34 112 97 115 115 119 111 114 100 34 58 34 108 115 119 49 50 51 34 125]
+2022/07/08 14:17:33.795 [I] [value.go:543]  注册原密码 lsw123
+2022/07/08 14:17:33.795 [I] [value.go:543]  注册加密后的密码 feba58d94cfd3f9e7631059fdd6cf0d6
+
+2022/07/08 14:17:33.802 [D] [server.go:2879]  |      127.0.0.1|[42m 200 [0m|     8.2116ms|   match|[46m POST    [0m /register   r:/register
+2022/07/08 14:18:29.619 [I] [asm_amd64.s:1581]  http server Running on http://:7777
+2022/07/08 14:19:03.707 [I] [asm_amd64.s:1581]  http server Running on http://:7777
+2022/07/08 14:20:18.983 [I] [asm_amd64.s:1581]  http server Running on http://:7777
+2022/07/08 14:20:23.029 [I] [asm_amd64.s:1581]  http server Running on http://:7777
+2022/07/08 14:20:34.546 [D] [value.go:543]  解析body获得data [123 34 97 99 99 111 117 110 116 34 58 34 108 115 119 49 50 51 34 44 34 112 97 115 115 119 111 114 100 34 58 34 100 115 97 100 115 97 100 34 125]
+2022/07/08 14:20:34.547 [I] [value.go:543]  注册原密码 dsadsad
+2022/07/08 14:20:34.547 [I] [value.go:543]  注册加密后的密码 a2cee1f64eff93df83e32b12f8022391
+
+2022/07/08 14:20:34.550 [D] [server.go:2879]  |      127.0.0.1|[42m 200 [0m|     4.8414ms|   match|[46m POST    [0m /register   r:/register
+2022/07/08 14:21:18.357 [D] [value.go:543]  解析body获得data [123 34 97 99 99 111 117 110 116 34 58 34 108 115 119 49 50 51 34 44 34 112 97 115 115 119 111 114 100 34 58 34 100 115 97 100 115 97 100 34 125]
+2022/07/08 14:21:18.358 [I] [value.go:543]  注册原密码 dsadsad
+2022/07/08 14:21:18.358 [I] [value.go:543]  注册加密后的密码 a2cee1f64eff93df83e32b12f8022391
+
+2022/07/08 14:21:18.359 [D] [server.go:2879]  |      127.0.0.1|[42m 200 [0m|     2.0561ms|   match|[46m POST    [0m /register   r:/register
+2022/07/08 14:21:18.960 [I] [asm_amd64.s:1581]  http server Running on http://:7777
+2022/07/08 14:22:12.256 [I] [asm_amd64.s:1581]  http server Running on http://:7777
+2022/07/08 14:22:50.779 [I] [asm_amd64.s:1581]  http server Running on http://:7777
+2022/07/08 14:23:04.239 [I] [asm_amd64.s:1581]  http server Running on http://:7777
+2022/07/08 14:23:47.944 [D] [value.go:543]  解析body获得data [123 34 97 99 99 111 117 110 116 34 58 34 108 115 119 49 52 55 34 44 34 112 97 115 115 119 111 114 100 34 58 34 108 115 119 49 52 55 34 125]
+2022/07/08 14:23:47.945 [I] [value.go:543]  注册原密码 lsw147
+2022/07/08 14:23:47.945 [I] [value.go:543]  注册加密后的密码 403c737f2cea160b40e16c931b0cb858
+
+2022/07/08 14:23:47.948 [I] [value.go:543]  insertErr注册失败 Error 1062: Duplicate entry '' for key 'beego_user.name'
+2022/07/08 14:23:47.949 [D] [server.go:2879]  |      127.0.0.1|[42m 200 [0m|      5.397ms|   match|[46m POST    [0m /register   r:/register
+2022/07/08 14:24:47.902 [D] [value.go:543]  解析body获得data [123 34 97 99 99 111 117 110 116 34 58 34 108 115 119 49 52 55 49 34 44 34 112 97 115 115 119 111 114 100 34 58 34 108 115 119 49 52 55 49 34 125]
+2022/07/08 14:24:47.902 [I] [value.go:543]  注册原密码 lsw1471
+2022/07/08 14:24:47.902 [I] [value.go:543]  注册加密后的密码 c8d6f0ad3461083ebc6a88e8fb60b0f7
+
+2022/07/08 14:24:47.903 [I] [value.go:543]  insertErr注册失败 Error 1062: Duplicate entry '' for key 'beego_user.name'
+2022/07/08 14:24:47.904 [D] [server.go:2879]  |      127.0.0.1|[42m 200 [0m|      2.571ms|   match|[46m POST    [0m /register   r:/register
+2022/07/08 14:25:08.380 [D] [value.go:543]  解析body获得data [123 34 97 99 99 111 117 110 116 34 58 34 120 98 49 50 51 34 44 34 112 97 115 115 119 111 114 100 34 58 34 120 98 49 50 51 34 125]
+2022/07/08 14:25:08.380 [I] [value.go:543]  注册原密码 xb123
+2022/07/08 14:25:08.381 [I] [value.go:543]  注册加密后的密码 c0c34c8ceef5eb36a7ff0523887f40d0
+
+2022/07/08 14:25:08.382 [I] [value.go:543]  insertErr注册失败 Error 1062: Duplicate entry '' for key 'beego_user.name'
+2022/07/08 14:25:08.382 [D] [server.go:2879]  |      127.0.0.1|[42m 200 [0m|     2.8171ms|   match|[46m POST    [0m /register   r:/register
+2022/07/08 14:26:22.784 [D] [value.go:543]  解析body获得data [123 34 117 110 97 109 101 34 58 34 108 115 119 49 52 55 34 44 34 97 99 99 111 117 110 116 34 58 34 108 115 119 49 52 55 34 44 34 112 97 115 115 119 111 114 100 34 58 34 108 115 119 49 52 55 34 125]
+2022/07/08 14:26:22.785 [I] [value.go:543]  注册原密码 lsw147
+2022/07/08 14:26:22.785 [I] [value.go:543]  注册加密后的密码 403c737f2cea160b40e16c931b0cb858
+
+2022/07/08 14:26:22.789 [D] [server.go:2879]  |      127.0.0.1|[42m 200 [0m|     4.5413ms|   match|[46m POST    [0m /register   r:/register
+2022/07/08 14:26:30.558 [I] [value.go:543]  完整的请求信息 &{POST /login HTTP/1.1 1 1 map[Accept:[application/json, text/plain, */*] Accept-Encoding:[gzip, deflate, br] Accept-Language:[zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4] Authorization:[Bearer null] Connection:[close] Content-Length:[41] Content-Type:[application/json] Origin:[http://localhost:8080] Referer:[http://localhost:8080/login] Sec-Ch-Ua:[" Not;A Brand";v="99", "Microsoft Edge";v="103", "Chromium";v="103"] Sec-Ch-Ua-Mobile:[?0] Sec-Ch-Ua-Platform:["Windows"] Sec-Fetch-Dest:[empty] Sec-Fetch-Mode:[cors] Sec-Fetch-Site:[same-origin] User-Agent:[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36 Edg/103.0.1264.44] X-Forwarded-For:[127.0.0.1] X-Forwarded-Host:[localhost:8080] X-Forwarded-Port:[8080] X-Forwarded-Proto:[http]] 0xc000199380 <nil> 41 [] true localhost:7777 map[] map[] <nil> map[] 127.0.0.1:3100 /login <nil> <nil> <nil> 0xc000199340}
+2022/07/08 14:26:30.559 [D] [value.go:543]  解析body获得data [123 34 97 99 99 111 117 110 116 34 58 34 107 108 115 119 49 53 54 34 44 34 112 97 115 115 119 111 114 100 34 58 34 100 115 97 100 97 100 34 125]
+2022/07/08 14:26:30.559 [N] [value.go:543]  登录原密码 dsadad
+2022/07/08 14:26:30.559 [N] [value.go:543]  登录加密后的密码 20442ea02b35d1c7f8468b8b578c5639
+
+2022/07/08 14:26:30.560 [D] [server.go:2879]  |      127.0.0.1|[42m 200 [0m|     2.0584ms|   match|[46m POST    [0m /login   r:/login
+2022/07/08 14:26:43.256 [I] [value.go:543]  完整的请求信息 &{POST /login HTTP/1.1 1 1 map[Accept:[application/json, text/plain, */*] Accept-Encoding:[gzip, deflate, br] Accept-Language:[zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6,ja;q=0.5,zh-TW;q=0.4] Authorization:[Bearer null] Connection:[close] Content-Length:[40] Content-Type:[application/json] Origin:[http://localhost:8080] Referer:[http://localhost:8080/login] Sec-Ch-Ua:[" Not;A Brand";v="99", "Microsoft Edge";v="103", "Chromium";v="103"] Sec-Ch-Ua-Mobile:[?0] Sec-Ch-Ua-Platform:["Windows"] Sec-Fetch-Dest:[empty] Sec-Fetch-Mode:[cors] Sec-Fetch-Site:[same-origin] User-Agent:[Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.66 Safari/537.36 Edg/103.0.1264.44] X-Forwarded-For:[127.0.0.1] X-Forwarded-Host:[localhost:8080] X-Forwarded-Port:[8080] X-Forwarded-Proto:[http]] 0xc000076180 <nil> 40 [] true localhost:7777 map[] map[] <nil> map[] 127.0.0.1:3109 /login <nil> <nil> <nil> 0xc000076100}
+2022/07/08 14:26:43.257 [D] [value.go:543]  解析body获得data [123 34 97 99 99 111 117 110 116 34 58 34 108 115 119 49 52 55 34 44 34 112 97 115 115 119 111 114 100 34 58 34 108 115 119 49 52 55 34 125]
+2022/07/08 14:26:43.257 [N] [value.go:543]  登录原密码 lsw147
+2022/07/08 14:26:43.258 [N] [value.go:543]  登录加密后的密码 403c737f2cea160b40e16c931b0cb858
+
+2022/07/08 14:26:43.258 [D] [server.go:2879]  |      127.0.0.1|[42m 200 [0m|     2.0417ms|   match|[46m POST    [0m /login   r:/login

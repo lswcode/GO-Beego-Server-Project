@@ -20,9 +20,9 @@ func init() {
 
 	// -------------------------------------------------------
 	// 第二步  连接数据库
-	datasource := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s?charset=utf8&loc=Local", username, password, host, port, database)
-	orm.RegisterDriver("mysql", orm.DRMySQL)                                   // 第一个参数是数据库名称，第二个参数是数据库类型，使用orm包中的mysql类型
-	connectErr := orm.RegisterDataBase("default", "mysql", datasource, 30, 30) // 开始连接数据库
+	datasource := fmt.Sprintf("%s:%s@tcp(%s:%s)/%s?charset=utf8&loc=Local", username, password, host, port, database) // 最后一个参数是操作的数据库名字，在app.conf中配置
+	orm.RegisterDriver("mysql", orm.DRMySQL)                                                                          // 第一个参数是数据库名称，第二个参数是数据库类型，使用orm包中的mysql类型
+	connectErr := orm.RegisterDataBase("default", "mysql", datasource, 30, 30)                                        // 开始连接数据库
 	// 第一个参数是自定义的数据库的别名，第二个参数是orm.RegisterDriver中的第一个参数，第三个参数是数据库连接参数
 	// ORM必须注册一个别名为default的数据库，作为默认使用
 	// 第四个和第五个参数可以省略，设置最大空闲连接和最大数据库连接
